@@ -1,0 +1,201 @@
+<html class="scroll-smooth" lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Pecinha Certa - Plataforma de Ensino Interativo para Crianças com Deficiência
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-b from-pink-100 via-purple-100 to-indigo-100 text-gray-800 min-h-screen flex flex-col">
+  <header class="bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 text-white shadow-md">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <a class="text-3xl font-extrabold tracking-widest hover:text-yellow-300 transition select-none" href="#">
+     Pecinha Certa
+    </a>
+    <nav class="hidden md:flex space-x-10 font-semibold text-lg">
+     <a class="hover:text-yellow-300 transition" href="#sobre">
+      Sobre
+     </a>
+     <a class="hover:text-yellow-300 transition" href="#conteudos">
+      Conteúdos
+     </a>
+     <a class="hover:text-yellow-300 transition" href="#inovacao">
+      Inovação
+     </a>
+     <a class="hover:text-yellow-300 transition" href="#contato">
+      Contato
+     </a>
+    </nav>
+    <button aria-label="Abrir menu" class="md:hidden focus:outline-none focus:ring-2 focus:ring-yellow-300" id="menu-btn">
+     <i class="fas fa-bars text-3xl">
+     </i>
+    </button>
+   </div>
+   <nav class="md:hidden bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 text-white px-6 py-5 space-y-4 hidden" id="mobile-menu">
+    <a class="block hover:text-yellow-300 transition font-semibold text-lg" href="#sobre">
+     Sobre
+    </a>
+    <a class="block hover:text-yellow-300 transition font-semibold text-lg" href="#conteudos">
+     Conteúdos
+    </a>
+    <a class="block hover:text-yellow-300 transition font-semibold text-lg" href="#inovacao">
+     Inovação
+    </a>
+    <a class="block hover:text-yellow-300 transition font-semibold text-lg" href="#contato">
+     Contato
+    </a>
+   </nav>
+  </header>
+  <main class="flex-grow max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 py-14">
+   <section class="mb-20" id="sobre">
+    <h1 class="text-5xl sm:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-700 to-indigo-800 mb-8 leading-tight">
+     Plataforma de Ensino Interativo para Crianças com Deficiência
+    </h1>
+    <p class="text-xl sm:text-2xl text-gray-700 max-w-4xl leading-relaxed">
+     Uma plataforma online colorida que oferece conteúdos educativos de forma adaptada para crianças com diferentes tipos de deficiência, incluindo surdez, deficiência visual e autismo. O conteúdo é interativo, com recursos como audiodescrição, vídeos em Libras, e jogos inclusivos.
+    </p>
+   </section>
+   <section class="mb-24" id="conteudos">
+    <h2 class="text-4xl font-extrabold text-indigo-800 mb-10 text-center">
+     Conteúdos Adaptados
+    </h2>
+    <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-3">
+     <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Criança feliz assistindo a um vídeo educativo em Libras, com intérprete de língua de sinais ao lado, em ambiente colorido e alegre" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c2335388-671e-4bf7-d085-5e0fae51c471.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-pink-700">
+       Vídeos em Libras
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Conteúdos em vídeo com interpretação em Língua Brasileira de Sinais para garantir acessibilidade a crianças surdas.
+      </p>
+     </article>
+     <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Imagem ilustrativa de audiodescrição com criança usando fones de ouvido e tela com descrição em áudio, em cores vibrantes" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/3034739f-697b-4298-2f2e-ffb024e0884a.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-purple-700">
+       Audiodescrição
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Recursos de audiodescrição para crianças com deficiência visual, tornando o conteúdo acessível e compreensível.
+      </p>
+     </article>
+     <article class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Crianças de diferentes etnias jogando jogos educativos inclusivos em tablets, sorrindo e interagindo, em ambiente colorido" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/315d08d7-d399-4926-4a15-67126df6f327.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-yellow-600">
+       Jogos Inclusivos
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Jogos educativos adaptados para diferentes necessidades, promovendo aprendizado lúdico e inclusivo.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section class="mb-24" id="inovacao">
+    <h2 class="text-4xl font-extrabold text-indigo-800 mb-10 text-center">
+     Inovação
+    </h2>
+    <p class="text-lg max-w-4xl text-gray-700 leading-relaxed mx-auto mb-12 px-4 sm:px-0">
+     Inclusão educacional com tecnologias de ponta, ajudando a personalizar o ensino e promover igualdade de acesso para todas as crianças, independentemente de suas necessidades especiais. Nossa plataforma utiliza inteligência artificial para adaptar conteúdos e oferecer uma experiência única e acessível.
+    </p>
+    <div class="mt-6 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Interface digital mostrando personalização de conteúdo educativo para crianças com deficiência, com cores vibrantes e elementos lúdicos" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9555e282-cb7f-4e4c-cf8b-470f14e31241.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-blue-600">
+       Personalização do Ensino
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Conteúdos adaptados às necessidades individuais de cada criança, garantindo melhor aprendizado.
+      </p>
+     </div>
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Crianças diversas usando tablets e computadores em ambiente escolar inclusivo, com cores alegres e vibrantes" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5560d0a5-84dd-4b1d-392a-404f8e773b32.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-pink-600">
+       Igualdade de Acesso
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Garantimos que todas as crianças tenham acesso aos mesmos conteúdos, independentemente de suas limitações.
+      </p>
+     </div>
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center text-center hover:shadow-2xl transition">
+      <img alt="Robô educativo interagindo com crianças em ambiente de aprendizado inclusivo, com cores vibrantes e elementos tecnológicos" class="rounded-2xl mb-6 w-full object-cover h-48" height="300" loading="lazy" src="https://storage.googleapis.com/a1aa/image/1767821a-b911-4b9e-dbc8-89a6ecdf7a0d.jpg" width="400"/>
+      <h3 class="text-2xl font-bold mb-3 text-gray-700">
+       Tecnologia de Ponta
+      </h3>
+      <p class="text-gray-600 max-w-xs">
+       Uso de inteligência artificial e outras tecnologias para melhorar a experiência educacional.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="mb-20 max-w-3xl mx-auto" id="contato">
+    <h2 class="text-4xl font-extrabold text-indigo-800 mb-10 text-center">
+     Contato
+    </h2>
+    <form action="#" aria-label="Formulário de contato" class="bg-white rounded-3xl shadow-lg p-10 space-y-8" method="POST">
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="nome">
+       Nome
+      </label>
+      <input class="w-full border border-pink-400 rounded-xl px-5 py-3 focus:outline-none focus:ring-4 focus:ring-pink-300 transition" id="nome" name="nome" placeholder="Seu nome completo" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="email">
+       E-mail
+      </label>
+      <input class="w-full border border-purple-400 rounded-xl px-5 py-3 focus:outline-none focus:ring-4 focus:ring-purple-300 transition" id="email" name="email" placeholder="seuemail@exemplo.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block text-gray-800 font-semibold mb-3 text-lg" for="mensagem">
+       Mensagem
+      </label>
+      <textarea class="w-full border border-indigo-400 rounded-xl px-5 py-3 focus:outline-none focus:ring-4 focus:ring-indigo-300 transition" id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui" required="" rows="5"></textarea>
+     </div>
+     <button class="w-full bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 text-white font-extrabold py-4 rounded-xl hover:from-pink-600 hover:via-purple-700 hover:to-indigo-800 transition" type="submit">
+      Enviar
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer class="bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 text-white py-8">
+   <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 flex flex-col sm:flex-row justify-between items-center">
+    <p class="text-sm sm:text-base select-none">
+     © 2024 Pecinha Certa. Todos os direitos reservados.
+    </p>
+    <div class="flex space-x-8 mt-6 sm:mt-0 text-xl">
+     <a aria-label="Facebook" class="hover:text-yellow-300 transition" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-yellow-300 transition" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-yellow-300 transition" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-yellow-300 transition" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
